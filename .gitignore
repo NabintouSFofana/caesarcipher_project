@@ -1,0 +1,63 @@
+# ─── Gradle / Java build output ──────────────────────────────────────
+# These are generated when you run ./gradlew or `mvn` — they don't
+# belong in the repo. Anyone cloning will regenerate them.
+build/
+.gradle/
+out/
+bin/
+*.class
+*.jar
+
+# ─── IDE / editor files ──────────────────────────────────────────────
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Other editors
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ─── OS junk ─────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ─── Logs and temp ───────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.cache
+
+# ─── Local-only experiments ──────────────────────────────────────────
+# Anything starting with _draft, _scratch, _local stays on my machine
+_draft*
+_scratch*
+_local*
+
+# ─── Secrets (just in case) ──────────────────────────────────────────
+# Not currently used, but if I ever add an API key or config, it
+# stays out of the repo
+.env
+.env.local
+secrets.json
